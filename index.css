@@ -192,20 +192,100 @@ img {
 .resaltado{
   background-color: var(--fondo);
   transition: background-color .8s;
+}
+
+.aboutme{
+  background-color: var(--some-letters);
+  color: white;
+  padding: 100px 20px;
+}
+
+.aboutme .contenido{
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Título */
+.aboutme h3{
+  font-size: 36px;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Titulo datos personales e intereses */
+.aboutme h2{
+  font-size: 26px;
+  text-align:justify;
+  padding: 15px 0;
+}
+
+.aboutme .contenido p{
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.aboutme .fila{
+  display: flex;
+}
+
+.aboutme .fila .col{
+  width: 100%;
+}
+
+.aboutme .fila .col{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+/* links personales */
+.aboutme .fila .col a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+.aboutme .fila .col ul{
+  list-style: none;
+}
+
+/* intereses */
+.aboutme .fila .col span{
+  text-align: justify;
+  margin-bottom: 5px;
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+/* titulo de los datos personales */
+.aboutme .fila .col ul li strong{
+  display:inline-table;
+  color: rgb(246, 162, 253);
+  font-size: 22px;
+  width: 130px;
+  padding: 2px;
+}
+
+
+.perfil{
+  margin: auto;
+  margin-top: 2%;
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  border-radius: 100%;
+  border-color: #4c3a69;
 
 }
 
 
-
-
-
-
-/* .main-title {
-
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 150%;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-}  */
+.perfil > .foto{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border-color: #4c3a69;
+  border-style:double;
+  
+}

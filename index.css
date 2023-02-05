@@ -80,6 +80,41 @@ body {
     background-color: var(--fondo);
 }
 
+/* Contáctame*/
+
+
+
+
+
+
+.contactMe{
+  background-color: rgb(19, 226, 226);
+}
+
+div{
+  width: 538px;
+  float: left;
+  background-color: aquamarine;
+  align-items: center;
+
+}
+
+.main-title{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+div .campos{
+  width: 100%;
+  margin-bottom: 15px;
+
+}
+
+#boton{
+  width: 100%;
+  
+}
+
 
 /* @media (min-width: 1024px) {
   .main-box {

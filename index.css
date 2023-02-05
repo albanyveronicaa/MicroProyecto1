@@ -59,7 +59,7 @@ html{
 
 .header header nav ul li a:hover{
     text-transform: lowercase;
-    color: #4c3a69;
+    color:var(--some-letters);
     font-weight: 900;
     font-style: italic;
 
@@ -67,7 +67,7 @@ html{
 }
 
 .nav {
-    background-color: #4c3a69;
+  background-color: var(--some-letters);
     color: white;
     padding: 5px 10px;
     border-radius: 7px;
@@ -83,9 +83,9 @@ body {
 /* Sección Sobre Mi */
 
 .aboutme{
-  background-color: rgb(136, 65, 65);
+  background-color: var(--some-letters);
   color: white;
-  padding: 50px 20px;
+  padding: 100px 20px;
 }
 
 .aboutme .contenido{
@@ -93,14 +93,16 @@ body {
   margin: auto;
 }
 
+/* Título */
 .aboutme h3{
-  font-size: 38px;
+  font-size: 36px;
   text-align: center;
   padding: 15px 0;
 }
 
+/* Titulo datos personales e intereses */
 .aboutme h2{
-  font-size: 25px;
+  font-size: 26px;
   text-align:justify;
   padding: 15px 0;
 }
@@ -109,6 +111,7 @@ body {
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .aboutme .fila{
@@ -116,7 +119,7 @@ body {
 }
 
 .aboutme .fila .col{
-  width: 50%;
+  width: 100%;
 }
 
 .aboutme .fila .col{
@@ -124,49 +127,53 @@ body {
   margin-bottom: 25px;
 }
 
+/* links personales */
 .aboutme .fila .col a{
-  color: aqua;
+  color: rgb(255, 255, 255);
   text-decoration: none;
+  font-size: 22px;
+
 }
 
 .aboutme .fila .col ul{
   list-style: none;
 }
 
+/* intereses */
 .aboutme .fila .col span{
+  text-align: justify;
   margin-bottom: 5px;
   display: block;
+  color: rgb(255, 255, 255);
 }
 
-.aboutme .fila .col ul li{
-  margin: 5px 0;
-  color: #0f071d;
-}
-
+/* titulo de los datos personales */
 .aboutme .fila .col ul li strong{
-  display: inline-block;
-  color: blue;
+  display:inline-table;
+  color: rgb(246, 162, 253);
+  font-size: 22px;
   width: 130px;
-}
-
-.aboutme .fila .col a i{
-  color: rgb(6, 17, 17);
+  padding: 2px;
 }
 
 
-/* @media (min-width: 1024px) {
-  .main-box {
-    margin-top: 60px;
-    max-width: 590px;
-  }
+.perfil{
+  margin: auto;
+  margin-top: 2%;
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  border-radius: 100%;
+  border-color: #4c3a69;
+
 }
 
-.main-title {
 
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 150%;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-} */
+.perfil > .foto{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border-color: #4c3a69;
+  border-style:double;
+  
+}

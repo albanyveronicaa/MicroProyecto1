@@ -1,6 +1,6 @@
 addEventListener('DOMContentLoaded', () => {
 
-    const  imagenes = ['imagenes/img1.jpg', 'imagenes/img2.jpg', 'imagenes/img3.jpg', 'imagenes/img4.jpg']
+    const  imagenes = ['Imagenes/img1.jpg', 'Imagenes/img2.jpg', 'Imagenes/img3.jpg', 'Imagenes/img4.jpg']
 
     let i = 1
     const img1 = document.querySelector('#img')

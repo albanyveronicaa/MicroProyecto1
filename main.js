@@ -39,12 +39,12 @@ addEventListener('DOMContentLoaded', () => {
             porcentaje_actual = porcentaje_base - porcentaje_base
         }
 
-        // setTimeout(() => {
-        //     img1.src = img2.src
-        //     img2.classList.remove('activa')
-        // }, 1000)
+        setTimeout(() => {
+        img1.src = img2.src
+        img2.classList.remove('activa')
+        }, 1000)
 
     }
 
-    // setInterval(barra, 4000)
+    setInterval(barra, 4000)
 })

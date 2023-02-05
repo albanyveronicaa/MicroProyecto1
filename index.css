@@ -48,7 +48,6 @@ body {
     overflow-y: auto;
   }
 
-
   #contenedor-barra-progreso{
     display: none;
   }
@@ -58,11 +57,7 @@ body {
     position: relative;
     overflow: hidden;
   }
-
 }
-
-
-
 
 /* NavBar */
 .header{
@@ -105,7 +100,6 @@ body {
     margin: 0 25px;
     padding: 3px;
     transition: .6s;
-
 }
 
 .header header nav ul li a:hover{
@@ -126,7 +120,6 @@ body {
 }
 
 /*Inicio, Carrusel/imágenes */
-
 #carrusel{
   position: relative;
   overflow: hidden;
@@ -174,7 +167,6 @@ img {
 #indicadores{
   width: 100%;
   text-align: center;
-  position: absolute;
   bottom: 20px;
   z-index: 999;
 }
@@ -194,10 +186,11 @@ img {
   transition: background-color .8s;
 }
 
+/* Acerca de mi */
 .aboutme{
   background-color: var(--some-letters);
   color: white;
-  padding: 100px 20px;
+  padding: 150px 20px;
 }
 
 .aboutme .contenido{
@@ -220,7 +213,7 @@ img {
 }
 
 .aboutme .contenido p{
-  font-size: 18px;
+  font-size: 20px;
   line-height: 22px;
   margin-bottom: 20px;
   text-align: justify;
@@ -244,7 +237,6 @@ img {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 22px;
-
 }
 
 .aboutme .fila .col ul{
@@ -266,26 +258,4 @@ img {
   font-size: 22px;
   width: 130px;
   padding: 2px;
-}
-
-
-.perfil{
-  margin: auto;
-  margin-top: 2%;
-  width: 100px;
-  height: 100px;
-  background-color: antiquewhite;
-  border-radius: 100%;
-  border-color: #4c3a69;
-
-}
-
-
-.perfil > .foto{
-  width: 100%;
-  height: 100%;
-  border-radius: 100%;
-  border-color: #4c3a69;
-  border-style:double;
-  
 }
